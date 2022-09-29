@@ -65,7 +65,7 @@ And remember to have your apache server on 😋
 
 ### Demo
 
-
+![]()
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
