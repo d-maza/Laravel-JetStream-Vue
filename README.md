@@ -65,7 +65,17 @@ And remember to have your apache server on 😋
 
 ### Demo
 
-![]()
+![](https://raw.githubusercontent.com/d-maza/Laravel-JetStream-Vue/main/storage/app/public/img/demo1.png)
+
+
+![](https://raw.githubusercontent.com/d-maza/Laravel-JetStream-Vue/main/storage/app/public/img/demo2.png)
+
+![](https://raw.githubusercontent.com/d-maza/Laravel-JetStream-Vue/main/storage/app/public/img/demo3b.png)
+
+![](https://raw.githubusercontent.com/d-maza/Laravel-JetStream-Vue/main/storage/app/public/img/demo4.png)
+
+
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
