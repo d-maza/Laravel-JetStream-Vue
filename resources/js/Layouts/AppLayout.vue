@@ -54,15 +54,15 @@ const logout = () => {
                                 </NavLink>
                             </div>
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                                <NavLink :href="route('node')" :active="route().current('node')">
-                                    JSon BBDD
-                                </NavLink>
-                            </div>   
-                            <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <NavLink :href="route('bbdd')" :active="route().current('bbdd')">
                                     Tabla BBDD
                                 </NavLink>
                             </div>                            
+                            <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                                <NavLink :href="route('node')" :active="route().current('node')">
+                                    JSon BBDD
+                                </NavLink>
+                            </div>   
                         </div>
 
                         <div class="hidden sm:flex sm:items-center sm:ml-6">
