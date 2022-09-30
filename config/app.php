@@ -82,16 +82,16 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'es',
 
-    /*
-    |--------------------------------------------------------------------------
-    | Application Fallback Locale
-    |--------------------------------------------------------------------------
+/*
+    | --------------------------------------------------------------------------
+    |Aplicación Local de retroceso
+    | --------------------------------------------------------------------------
     |
-    | The fallback locale determines the locale to use when the current one
-    | is not available. You may change the value to correspond to any of
-    | the language folders that are provided through your application.
+    |El local de retrocesos determina el local de usar cuando el actual
+    |no está disponible.Puede cambiar el valor para corresponder a cualquiera de
+    |Las carpetas de idioma que se proporcionan a través de su aplicación.
     |
     */
 

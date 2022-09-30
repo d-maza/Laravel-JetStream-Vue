@@ -2,9 +2,10 @@
   <div class="greetings">
 
     <section>
+      
         <div class="content">
-            <h2 translate="no">DiveCode</h2>
-            <h2 translate="no">DiveCode</h2>
+            <h2 translate="no" lang="en">DiveCode</h2>
+            <h2 translate="no" lang="en">DiveCode</h2>
         </div>
         
     </section>

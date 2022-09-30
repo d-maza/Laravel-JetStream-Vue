@@ -29,7 +29,7 @@ defineProps({
                 
 				<ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
 				  <li class="mr-2">
-					<a class="inline-block py-2 px-2 text-white no-underline" href="register">Register</a>
+					<a class="inline-block py-2 px-2 text-white no-underline" href="register">Backend</a>
 				  </li>
 				  <!-- <li class="mr-2">
 					<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-2" href="/login">Login</a>

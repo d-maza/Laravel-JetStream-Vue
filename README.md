@@ -36,25 +36,45 @@
 1. [x] PC3-2 Crea un proyecto web - Laravel - JetStream - Vue - Tailwind	
 
 
-
 ### How to Run:
 1. Clone Project -
 
 ```bash
 git clone https://github.com/d-maza/Laravel-JetStream-Vue
 ```
-1. Go to the project drectory by `cd pc3_3` & Run the
+1. Go to the project drectory by `cd Laravel-JetStream-Vue` & Run the
 2. Create `.env` file & Copy `.env.example` file to `.env` file
-3. Create a database called - `pc_3`.
-4. Install composer packages - `composer install`.
-5. Install composer packages - `npm install`.
-6. Remember to run the Vite server so you can compile the VUE files ❕❕
+
+3. Create your KEY 
+```
+php artisan key:generate 
+```
+
+4. Install composer packages 
+ ```
+ composer install
+ ```
+5. Install npm packages 
+```
+npm install
+```
+
+
+6. Create a database called - `pc_3`. in terminal: `mysql -u root`. and `create database pc_3`
+
+```
+php artisan migrate
+php artisan db:seed
+```
+
+
+7. Remember to run the Vite server so you can compile the VUE files ❕❕
 ``` bash
 nmp run dev
 ```
-7. Run the server -
+7. AND! run the server 
 ``` bash
-php artisan serve
+php artisan serve 
 ```
 8. Open Browser -
 http://127.0.0.1:8000 & go 🚀🚀
