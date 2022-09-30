@@ -42,25 +42,27 @@
 ```bash
 git clone https://github.com/d-maza/Laravel-JetStream-Vue
 ```
+
 1. Go to the project drectory by `cd Laravel-JetStream-Vue` & Run the
-2. Create `.env` file & Copy `.env.example` file to `.env` file
 
-3. Create your KEY 
-```
-php artisan key:generate 
-```
-
-4. Install composer packages 
+2. Install composer packages 
  ```
  composer install
  ```
-5. Install npm packages 
+3. Install npm packages 
 ```
 npm install
 ```
 
+4. Create `.env` file & Copy `.env.example` file to `.env` file
 
-6. Create a database called - `pc_3`. in terminal: `mysql -u root`. and `create database pc_3`
+5. Create your KEY 
+```
+php artisan key:generate 
+```
+
+
+6. Create a database called - `p3_3`. in terminal: `mysql -u root`. and `create database pc_3`
 
 ```
 php artisan migrate
@@ -70,9 +72,9 @@ php artisan db:seed
 
 7. Remember to run the Vite server so you can compile the VUE files ❕❕
 ``` bash
-nmp run dev
+npm run dev
 ```
-7. AND! run the server 
+7. AND! run the server in new terminal
 ``` bash
 php artisan serve 
 ```
