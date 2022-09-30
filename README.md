@@ -16,6 +16,7 @@
 ### Language & Framework Used:
 
 1. PHP-8
+1. VUE-3
 1. Laravel-9
 
 
@@ -23,8 +24,7 @@
 ### Architecture Used:
 1. Laravel 9.x
 1. Interface-Repository Pattern
-1. Model Based Eloquent Query
-1. PHP Unit Testing - Some basic unit testing added.
+
 
 ### Practices List:
 ##### Authentication Module
@@ -65,8 +65,7 @@ php artisan key:generate
 6. Create a database called - `p3_3`. in terminal: `mysql -u root`. and `create database pc_3`
 
 ```
-php artisan migrate
-php artisan db:seed
+php artisan migrate --seed
 ```
 
 
