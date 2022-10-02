@@ -16,6 +16,7 @@
 ### Language & Framework Used:
 
 1. PHP-8
+1. VUE-3
 1. Laravel-9
 
 
@@ -24,7 +25,7 @@
 1. Laravel 9.x
 1. Interface-Repository Pattern
 1. Model Based Eloquent Query
-1. PHP Unit Testing - Some basic unit testing added.
+
 
 ### Practices List:
 ##### Authentication Module
@@ -62,27 +63,33 @@ php artisan key:generate
 ```
 
 
-6. Create a database called - `p3_3`. in terminal: `mysql -u root`. and `create database pc_3`
+6. Create table corresponds to .env
 
+```js    
+DB_DATABASE=yourdatabase_name
+DB_USERNAME=your_username
+DB_
 ```
-php artisan migrate
-php artisan db:seed
+
+7. Run migration & Seeder
+```sh
+php artisan migrate --seed
 ```
 
 
-7. Remember to run the Vite server so you can compile the VUE files ❕❕
+8. Remember to run the Vite server so you can compile the VUE files ❕❕
 ``` bash
 npm run dev
 ```
-7. AND! run the server in new terminal
+9. AND! run the server in new terminal
 ``` bash
 php artisan serve 
 ```
-8. Open Browser -
+9. Open Browser -
 http://127.0.0.1:8000 & go 🚀🚀
 And remember to have your apache server on 😋
 
-9. You'll see a Web Panel and register to go to the Back End side
+10. You'll see a Web Panel and register to go to the Back End side
 
 
 ### Demo
@@ -99,8 +106,6 @@ And remember to have your apache server on 😋
 
 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 ## Las solicitudes de extracción y los problemas son bienvenidos

@@ -62,6 +62,11 @@ const logout = () => {
                                 <NavLink :href="route('node')" :active="route().current('node')">
                                     JSon BBDD
                                 </NavLink>
+                            </div> 
+                            <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                                <NavLink :href="route('practica')" :active="route().current('practica')">
+                                    Añadir Practica
+                                </NavLink>
                             </div>   
                         </div>
 

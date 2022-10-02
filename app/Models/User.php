@@ -20,8 +20,8 @@ class User extends Authenticatable
     use Notifiable;
     use TwoFactorAuthenticatable;
 
-    /**
-     * The attributes that are mass assignable.
+/**
+     * Los atributos que son asignables en masa.
      *
      * @var string[]
      */
@@ -29,8 +29,8 @@ class User extends Authenticatable
         'name', 'email', 'password',
     ];
 
-    /**
-     * The attributes that should be hidden for serialization.
+/**
+     * Los atributos que deben estar ocultos para la serialización.
      *
      * @var array
      */
@@ -50,8 +50,8 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    /**
-     * The accessors to append to the model's array form.
+/**
+     * Los accesorios para agregar al formulario de matriz del modelo.
      *
      * @var array
      */

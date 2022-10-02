@@ -20,8 +20,7 @@ Route::get('/', function () {
     return Inertia::render('Welcome', [
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
+
     ]);
 });
 
@@ -40,6 +39,8 @@ Route::middleware([
     
     Route::get('/node', [PracticaController::class ,'index'])->name('node');
     Route::get('/bbdd', [PracticaController::class ,'show'])->name('bbdd');
+    Route::get('/Practica', [PracticaController::class ,'index2'])->name('practica');
+    Route::post('/Practica', [PracticaController::class ,'create'])->name('createPractica');
     
     
    
