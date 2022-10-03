@@ -43,10 +43,10 @@ class PracticaController extends Controller
         
         $practicas = DB::select("INSERT INTO `practicas` (titulo, subtitulo , parrafo, enlace, skills) VALUES ('$titulo', '$subtitulo', '$parrafo','$enlace', '$skills')");
 
-         return ('<h1 style="margin-top: 1cm; margin-left: 1cm; color: brown ; font-family: monospace;"> Dato creado satifactotiamente voler a: <a href="http://127.0.0.1:8000/bbdd">Base de Datos</a></h1> ');
+        //  return ('<h1 style="margin-top: 1cm; margin-left: 1cm; color: brown ; font-family: monospace;"> Dato creado satifactotiamente voler a: <a href="http://127.0.0.1:8000/bbdd">Base de Datos</a></h1> ');
         
-        // $msg = 'Dato creado corretamente';
-        // return Inertia::render('Practica',['msg' => $msg ]);
+        $msg = 'Dato creado corretamente';
+        return Inertia::render('Practica',['msg' => $msg ]);
     }   
 
     /**

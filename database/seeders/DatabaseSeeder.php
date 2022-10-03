@@ -42,7 +42,7 @@ class DatabaseSeeder extends Seeder
         $practica3 -> titulo = "PC1-3";
         $practica3 -> subtitulo= "NodeJS CRUD con MonogoDB";
         $practica3 -> parrafo= "Crea una base de Datos de Stras Wars con MongoDB y realiza un CRUD";
-        $practica3 -> enlace= "https://github.com/d-maza/PC3-CRUD-NODE-MONGODB";
+        $practica3 -> enlace= "https://app-dmaza.herokuapp.com/";
         $practica3 -> skills= "NodeJS - Express - Ejs - Mongodb";
     
         $practica3 -> save();

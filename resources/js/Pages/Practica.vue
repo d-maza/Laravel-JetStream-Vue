@@ -21,7 +21,7 @@ import AppLayout from "@/Layouts/AppLayout.vue";
                     <h1 class="text-4xl text-center mt-3 text-blue-800">
                         Añadir Practica
                     </h1>
-                    <h2 style="margin-top: 2cm; color: brown ; font-family:monospace; ">{{msg}}</h2>
+                    <h2 style="margin-left: 20px; color:blueviolet; font-size:20px; ">{{$page.props.msg}}</h2>
                     <form action="/Practica" method="POST">
                         
                         

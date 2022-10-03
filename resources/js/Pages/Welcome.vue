@@ -368,8 +368,8 @@ defineProps({
 
     <div class="container w-full max-w-6xl mx-auto px-2 py-8">
         <div class="flex flex-wrap -mx-2">
-            <div class="w-full md:w-1/3 px-2 pb-12">
-                <div class="h-full bg-white rounded overflow-hidden shadow-md hover:bg-amber-100 relative smooth">
+            <div class="w-full md:w-1/3 px-2 pb-12 relative overflow-hidden">
+                <div class="h-full bg-white rounded overflow-hidden shadow-md hover:scale-95 transition duration-500 ease-in-out relative smooth">
                     <a href="https://github.com/d-maza" class="no-underline hover:no-underline">
                             <img src="../../../storage/app/public/img/pc1-1.png" class="h-48 w-full rounded-t shadow-lg">
                             <div class="p-6 h-auto md:h-48">	
@@ -392,9 +392,9 @@ defineProps({
                 </div>
             </div>
             <div class="w-full md:w-1/3 px-2 pb-12">
-                <div class="h-full bg-white rounded overflow-hidden shadow-md hover:bg-amber-100 relative smooth">
-                    <a href="https://github.com/d-maza/PC2-NODE-EXPRESS" class="no-underline hover:no-underline">
-                            <img src="../../../storage/app/public/img/pc2-1.png" class="h-48 w-full rounded-t shadow">
+                <div class="h-full bg-white rounded overflow-hidden shadow-md hover:scale-95 transition duration-500 ease-in-out relative smooth">
+                            <img src="../../../storage/app/public/img/pc2-1.png" class="h-48 w-full rounded-tsmooth">
+                    <a href="https://github.com/d-maza/PC2-NODE-EXPRESS" class=" shadow">
                             <div class="p-6 h-auto md:h-48">	
                                 <p class="text-sky-700  text-base mb-2">PC2-1</p>
                                 <div class="font-bold text-xl  text-blue-500">Aplicación Express</div>
@@ -414,7 +414,7 @@ defineProps({
                 </div>
             </div>
             <div class="w-full md:w-1/3 px-2 pb-12">
-                <div class="h-full bg-white rounded overflow-hidden shadow-md hover:bg-amber-100 relative smooth">
+                <div class="h-full bg-white rounded overflow-hidden shadow-md hover:scale-95 transition duration-500 ease-in-out relative smooth">
                     <a href="https://github.com/d-maza/PC3-CRUD-NODE-MONGODB" class="no-underline hover:no-underline">
                             <img src="../../../storage/app/public/img/pc3-1.png" class="h-48 w-full rounded-t shadow">
                             <div class="p-6 h-auto md:h-48">	
@@ -440,7 +440,7 @@ defineProps({
     <div class="container w-full max-w-6xl mx-auto px-2 py-8">
         <div class="flex flex-wrap -mx-2">
             <div class="w-full md:w-1/3 px-2 pb-12">
-                <div class="h-full bg-white rounded overflow-hidden shadow-md hover:bg-amber-100 relative smooth">
+                <div class="h-full bg-white rounded overflow-hidden shadow-md hover:scale-95 transition duration-500 ease-in-out relative smooth">
                     <a href="https://github.com/d-maza">
                             <img src="../../../storage/app/public/img/pc1-2.png" class="h-48 w-full rounded-t shadow-lg">
                             <div class="p-6 h-auto md:h-48">	
@@ -462,7 +462,7 @@ defineProps({
                 </div>
             </div>
             <div class="w-full md:w-1/3 px-2 pb-12">
-                <div class="h-full bg-white rounded overflow-hidden hover:bg-amber-100 relative smooth">
+                <div class="h-full bg-white rounded overflow-hidden shadow-md hover:scale-95 transition duration-500 ease-in-out relative smooth">
                     <a href="https://github.com/d-maza/PC2-2-Laravel---Jetstream">
                             <img src="../../../storage/app/public/img/pc2-2.png" class="h-48 w-full rounded-t shadow">
                             <div class="p-6 h-auto md:h-48">	
@@ -484,7 +484,7 @@ defineProps({
                 </div>
             </div>
             <div class="w-full md:w-1/3 px-2 pb-12">
-                <div class="h-full bg-white rounded overflow-hidden shadow-md hover:bg-amber-100 relative smooth">
+                <div class="h-full bg-white rounded overflow-hidden shadow-md hover:scale-95 transition duration-500 ease-in-out relative smooth">
                     <a href="https://github.com/d-maza">
                             <img src="../../../storage/app/public/img/pc3-2.png" class="h-48 w-full rounded-t shadow">
                             <div class="p-6 h-auto md:h-48">	
