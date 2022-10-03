@@ -24,10 +24,7 @@
 ### Architecture Used:
 1. Laravel 9.x
 1. Interface-Repository Pattern
-<<<<<<< HEAD
-1. Model Based Eloquent Query
-=======
->>>>>>> b465185a7c7d061205a8e26bf64e21f9a1a40cd2
+
 
 
 ### Practices List:
@@ -73,6 +70,7 @@ DB_DATABASE=yourdatabase_name
 DB_USERNAME=your_username
 DB_
 ```
+or 
 
 7. Run migration & Seeder
 ```sh
